@@ -10,7 +10,7 @@ import {
 
 export const getSubscription = asyncHandler(
   async (req: Request, res: Response) => {
-    const userId = req.user?.id;
+    const userId = req.user?._id;
     if (!userId) throw new Error("User not found");
 
     const subscription = await getSubscriptionService(userId);
@@ -23,7 +23,7 @@ export const getSubscription = asyncHandler(
 
 export const createCheckoutSession = asyncHandler(
   async (req: Request, res: Response) => {
-    const userId = req.user?.id;
+    const userId = req.user?._id;
     if (!userId) throw new Error("User not found");
     const { plan } = req.body;
 
@@ -37,7 +37,7 @@ export const createCheckoutSession = asyncHandler(
 
 export const createBillingPortal = asyncHandler(
   async (req: Request, res: Response) => {
-    const userId = req.user?.id;
+    const userId = req.user?._id;
     if (!userId) throw new Error("User not found");
 
     const { url } = await createBillingPortalService(userId);
