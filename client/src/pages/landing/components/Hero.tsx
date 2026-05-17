@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { AUTH_ROUTES } from "@/routes/common/routePath";
-import { ArrowRight, Sparkles, Activity, ArrowUpRight, BrainCircuit, LayoutDashboard, Settings } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 const Hero = () => {
   return (
