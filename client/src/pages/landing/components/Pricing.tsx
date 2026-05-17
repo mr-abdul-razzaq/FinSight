@@ -9,14 +9,14 @@ const plans = [
   {
     name: "FREE",
     description: "Essential tools for personal finance management.",
-    price: "$0",
+    price: "₹0",
     features: ["5 AI Receipt Scans / mo", "1 AI Report / mo", "Basic Dashboard", "Standard Support"],
     popular: false,
   },
   {
     name: "PRO",
     description: "Advanced analytics and higher limits for power users.",
-    price: "$9.99",
+    price: "₹999",
     period: "/mo",
     features: ["50 AI Receipt Scans / mo", "10 AI Reports / mo", "Advanced Dashboard", "Priority Support"],
     popular: true,
@@ -24,7 +24,7 @@ const plans = [
   {
     name: "BUSINESS",
     description: "Unlimited capabilities for professional use.",
-    price: "$29.99",
+    price: "₹1999",
     period: "/mo",
     features: ["Unlimited AI Receipt Scans", "Unlimited AI Reports", "Custom Categories", "24/7 Dedicated Support"],
     popular: false,
