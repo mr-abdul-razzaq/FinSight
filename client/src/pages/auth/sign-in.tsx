@@ -6,7 +6,7 @@ import { Sparkles, TrendingUp, BrainCircuit, Activity } from "lucide-react";
 const SignIn = () => {
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
@@ -21,7 +21,7 @@ const SignIn = () => {
           </div>
         </div>
       </motion.div>
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.2 }}
@@ -37,21 +37,21 @@ const SignIn = () => {
               <Sparkles className="w-4 h-4" />
               <span>Next-Gen Financial Command Center</span>
             </div>
-            
+
             <h2 className="text-4xl font-extrabold tracking-tight text-foreground leading-[1.15]">
               Smarter money management,<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
                 driven by advanced AI.
               </span>
             </h2>
-            
+
             <p className="text-lg text-muted-foreground leading-relaxed">
               Consolidate expenses, parse multimodal receipts, and receive automated financial summaries. Elevate your savings with FinSight's cognitive reporting pipelines.
             </p>
           </div>
 
           {/* SaaS-Style Metric Block Showcase */}
-          <motion.div 
+          <motion.div
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
@@ -66,7 +66,7 @@ const SignIn = () => {
                   </div>
                   <div>
                     <span className="text-xs text-muted-foreground uppercase tracking-wider font-semibold">Net Balance Growth</span>
-                    <h4 className="text-2xl font-bold text-foreground font-outfit">$14,840.50</h4>
+                    <h4 className="text-2xl font-bold text-foreground font-outfit">₹14,840.50</h4>
                   </div>
                 </div>
                 <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-500">
@@ -92,7 +92,7 @@ const SignIn = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                "We analyzed your recurring subscriptions and found overlapping services. Cancelling the unused secondary license will automatically increase your annual cash surplus by <span className="font-semibold text-foreground font-outfit">$480.00</span>."
+                "We analyzed your recurring subscriptions and found overlapping services. Cancelling the unused secondary license will automatically increase your annual cash surplus by <span className="font-semibold text-foreground font-outfit">₹480.00</span>."
               </p>
             </div>
           </motion.div>
